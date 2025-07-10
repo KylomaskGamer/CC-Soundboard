@@ -17,3 +17,10 @@ soundboard
 
 (It was built and tested on a pocket computer, you may use this on somewhere else but ita not recommended i dont get why youd use this on them)
 ###### (well UNLESS you can make a 26x20 terminal size then itll work. if someone could make a pull request for this itll be greatly appreciated)
+
+# How to use
+1. run the program
+2. click a sound
+3. it plays it
+4. funny
+5. repeat because dopamine
