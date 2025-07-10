@@ -73,7 +73,7 @@ local function drawWarning()
   term.setTextColor(colors.white)
   term.setCursorPos(1, 1)
   term.clearLine()
-  term.write(" ⚠️  WARNING: no speaker found! ⚠️ ")
+  term.write(" !! WARNING: no speaker found! !! ")
 end
 
 local function drawGrid(sounds, page, highlightIndex, navClick)
@@ -150,7 +150,7 @@ end
 
 local function playDFPWM(filePath)
   if not speaker then
-    print("NO SPEAKER BRO 😭 can't play: " .. filePath)
+    print("NO SPEAKER BRO :( can't play: " .. filePath)
     return
   end
 
